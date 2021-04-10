@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-  echo intsalling cataloge
+  echo intsalling cataloge 2
