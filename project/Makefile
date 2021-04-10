@@ -12,7 +12,7 @@ cataloge: ##ntsall cataloge
 	@sh components/cataloge.sh
 
 
-frontend: ##ntsall cataloge
+frontend: ##ntsall frontend
 	@sh components/frontend.sh
 
 
