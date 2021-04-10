@@ -11,3 +11,9 @@ cart:    ##intsall cart
 cataloge: ##ntsall cataloge
 	@sh components/cataloge.sh
 
+
+frontend: ##ntsall cataloge
+	@sh components/frontend.sh
+
+
+
