@@ -8,11 +8,11 @@ cart:    ##intsall cart
 	@sh components/cart.sh
 
 
-cataloge: ##ntsall cataloge
+cataloge: ##intsall cataloge
 	@sh components/cataloge.sh
 
 
-frontend: ##ntsall frontend
+frontend: ##intsall frontend
 	@sh components/frontend.sh
 
 
