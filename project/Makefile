@@ -1,8 +1,8 @@
 cataloge:
 
-	@sh components/cart.sh
+	@sh project/cart.sh
 
 cart:
 
-	@sh components/cataloge.sh
+	@sh project/cataloge.sh
 
