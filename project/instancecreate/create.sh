@@ -10,6 +10,4 @@ if [ -z "${COMPONENT}" ]; then
   echo "COMPONENT name is needed"
 
 fi
-
-aws ec2 run-instances --launch-template LaunchTemplateId=${LID},Version=${LVER} --tag-specifications "ResourceType=instance,Tags=[{Key=NAME,Value=${COMPONENT}
-}]" | jq
+  aws ec2 run-instances --launch-template LaunchTemplateId=${LID},Version=${LVER}  --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=${COMPONENT}}]" | jq
