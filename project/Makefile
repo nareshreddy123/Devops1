@@ -1,8 +1,8 @@
 cataloge:
 
-	@echo intsalling cataloge
+	@sh components/cart.sh
 
 cart:
 
-	@echo intsalling cart
+	@sh components/cataloge.sh
 
