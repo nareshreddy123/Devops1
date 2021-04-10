@@ -1,7 +1,5 @@
 source components/common.sh
-COMPONENT=frontend
 
-OS_Prereqs
 
 PRINT "Installing Nginx"
 yum install nginx -y
