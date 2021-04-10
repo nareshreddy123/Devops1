@@ -12,4 +12,4 @@ if [ -z "${COMPONENT}" ]; then
 fi
 
 aws ec2 run-instances --launch-template LaunchTemplateId=${LID},Version=${LVER} --tag-specifications "ResourceType=instance,Tags=[{Key=NAME,Value=${COMPONENT}
-}]"| jq
+}]" | jq
