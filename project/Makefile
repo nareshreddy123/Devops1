@@ -3,16 +3,20 @@ help:           ## Show this help.
 	@fgrep -h "##" $(MAKEFILE_LIST) | fgrep -v fgrep | sed -e 's/\\$$//' | sed -e 's/##//'
 
 
-cart:    ##intsall cart
+common:
+
+	@sh components/common.sh
+
+cart:    common  ##intsall cart
 
 	@sh components/cart.sh
 
 
-cataloge: ##intsall cataloge
+cataloge: common ##intsall cataloge
 	@sh components/cataloge.sh
 
 
-frontend: ##intsall frontend
+frontend: common  ##intsall frontend
 	@sh components/frontend.sh
 
 
