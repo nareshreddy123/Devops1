@@ -4,5 +4,5 @@ cataloge:
 
 cart:
 
-	@sh comonentst/cataloge.sh
+	@sh components/cataloge.sh
 
