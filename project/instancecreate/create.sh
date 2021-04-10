@@ -3,6 +3,7 @@
 
 LID=lt-0755896d1c4556f94
 COMPONENT=$1
+LVER=2
 
 if [ -z "${COMPONENT}" ]; then
 
