@@ -20,4 +20,10 @@ frontend: common  ##intsall frontend
 	@sh components/frontend.sh
 
 
+mongodb: common  ##intsall mongodb
+	@sh components/mongodb.sh
+
+
+
+
 
