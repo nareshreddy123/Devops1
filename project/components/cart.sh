@@ -1,2 +1,8 @@
-#!/usr/bin/env bash
-  echo intsalling cart 1
+#!/bin/bash
+
+source components/common.sh
+
+COMPONENT=cart
+
+OS_Prereqs
+NodeJS_Setup

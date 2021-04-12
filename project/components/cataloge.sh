@@ -1,2 +1,8 @@
-#!/usr/bin/env bash
-  echo intsalling cataloge 2
+#!/bin/bash
+
+source components/common.sh
+
+COMPONENT=catalogue
+
+OS_Prereqs
+NodeJS_Setup

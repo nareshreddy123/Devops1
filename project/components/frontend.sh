@@ -2,6 +2,8 @@
 
 
 source components/common.sh
+COMPONENT=frontend
+
 
 
 PRINT "Installing Nginx"

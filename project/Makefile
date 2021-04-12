@@ -23,7 +23,7 @@ frontend: common  ##intsall frontend
 mongodb: common  ##intsall mongodb
 	@sh components/mongodb.sh
 
-
-
+cart: common  ##intsall mongodb
+	@sh components/cart.sh
 
 
