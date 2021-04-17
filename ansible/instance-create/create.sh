@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-LID=lt-07028e010f9cba4e9
-LVER=3
+LID=lt-0dc97c3de63e3df7c
+LVER=1
 #COMPONENT=$1
 
 if [ -z "$1" ]; then
