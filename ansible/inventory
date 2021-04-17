@@ -1,1 +1,1 @@
-54.161.77.183
+localhost ansible_connection=local URL_INV=hosts.example.com
