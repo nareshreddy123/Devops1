@@ -3,7 +3,7 @@
   "Changes": [{
     "Action": "UPSERT",
     "ResourceRecordSet": {
-      "Name": "COMPONENT.devopsb55.tk",
+      "Name": "COMPONENT.naresh123.tk",
       "Type": "A",
       "TTL": 300,
       "ResourceRecords": [{ "Value": "IPADDRESS"}]
